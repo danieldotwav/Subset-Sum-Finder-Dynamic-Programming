@@ -30,7 +30,7 @@ This Java project includes the implementation of the `howSum` function. The func
 
 ### Code Snippet
 
-    ```java
+```java
     static Integer[] improvedHowSum(int targetSum, Integer[] numbers, HashMap<Integer, Integer[]> memo) {
        if (memo.containsKey(targetSum)) return memo.get(targetSum);
        if (targetSum == 0) return new Integer[0];
@@ -49,4 +49,4 @@ This Java project includes the implementation of the `howSum` function. The func
        memo.put(targetSum, null);
        return null;
    }
-    ```
+```
